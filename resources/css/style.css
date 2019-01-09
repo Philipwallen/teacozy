@@ -1,0 +1,50 @@
+* {
+	border: solid 1px red;
+}
+
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+/* --- Header Content --- */
+.header-container {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	border-bottom: seashell 1px solid;
+	height: 69px;
+	width: 100%;
+}
+/* Header container creates a flex box 
+and centers the content initalizing the width and height */
+
+.header-container .logo {
+	flex-grow: 1;
+	padding-left: 10px;
+
+}
+
+.header-container img {
+	height: 50px;
+
+}
+/* growing the logo gives the container that
+houses the logo 50% of container space */
+
+.header-container a {
+	color: seashell;
+}
+
+/* --- Main Content ---*/
+.main-container {
+	background-image: url('../../images/img-mission-background.jpg');
+	position: relative;
+	top: 69px;
+	display: flex;
+	align-items: center;
+
+}
