@@ -1,6 +1,4 @@
-* {
-	border: solid 1px red;
-}
+
 
 body {
 	font-family: Helvetica;
@@ -30,7 +28,10 @@ and centers the content initalizing the width and height */
 
 .header-container img {
 	height: 50px;
+}
 
+.header-container span {
+	padding-right: 30px;
 }
 /* growing the logo gives the container that
 houses the logo 50% of container space */
@@ -41,10 +42,23 @@ houses the logo 50% of container space */
 
 /* --- Main Content ---*/
 .main-container {
-	background-image: url('../../images/img-mission-background.jpg');
-	position: relative;
-	top: 69px;
 	display: flex;
-	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 65px;
+}
+
+.main-container .content {
+	background-image: url("../../resources/images/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+}
+
+.mission-container {
+	background-color: black;
+	text-align: center;
+	position: relative;
+	top: 275px;
+
 
 }
