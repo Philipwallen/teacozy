@@ -90,10 +90,39 @@ center the content and create a column */
 }
 
 .main-container3 {
-	background-image: url("../../resources/images/img-locations-background.jpg");
+	display: flex;
+	justify-content: center;
+
 }
 
+.main-container3 .content {
+	background-image: url("../../resources/images/img-locations-background.jpg");
+	position: relative;
+	top: 250px;
+	height: 500px;
+	width: 1200px;
+}
 
+.main-container3 .content2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-container3 .content-container {
+	text-align: center;
+	position: relative;
+	top: 75px;	
+
+}
+
+.main-container3 .content-container2 {
+	background-color: black;
+	width: 300px;
+	text-align: center;
+	padding: 2px;
+	position: relative;
+	top: 75px;
+}
 
 
 
