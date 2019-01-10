@@ -63,28 +63,41 @@ houses the logo 50% of container space */
 /* --- Main Content 2 --- */
 /* create container, position it relative to content above
 center the content and create a column */
+.main-content-header {
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
 .main-container2 {
 	position: relative;
 	top: 150px;
 	display: flex;
-	align-items: center;
-	flex-direction: column;
+	justify-content: center;
 }
-/* create a boundary for the images to live in and create the
-required space-between using padding (addition) */
-.main-container2 .photo-content img {
+
+.main-container2 img{
 	height: 200px;
 	width: 300px;
 	padding-right: 50px;
+
 }
- /* Set the width of the content and place all content in a container */
-.main-container2 .photo-content {
-	width: 1000px;
-	display: inline-flex;	
+
+.main-container2 .photo-content p {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
 }
-.main-container2 p {
-	text-align: center;
+
+.main-container3 {
+	background-image: url("../../resources/images/img-locations-background.jpg");
 }
+
+
+
+
+
+
 
 
 
