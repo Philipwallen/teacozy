@@ -137,9 +137,9 @@ center the content and create a column */
 
 
 footer .content {
-	padding: 20px;
 	position: relative;
 	top: 250px;
+	padding-left: 20px;
 }
 
 
